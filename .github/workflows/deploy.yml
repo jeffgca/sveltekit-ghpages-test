@@ -24,7 +24,7 @@ jobs:
 
       - name: build
         env:
-          BASE_PATH: '/your-repo-name' # change this to your repository name
+          BASE_PATH: '/sveltekit-ghpages-test' # change this to your repository name
         run: |
           npm run build
           touch build/.nojekyll
